@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <SurfaceView
+        <com.example.facemaker.Face
             android:id="@+id/faceSurfaceView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/RANDOMFACE"
+                    android:id="@+id/randomFace"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="RANDOM FACE" />
